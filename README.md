@@ -1,21 +1,3 @@
-# Project Structure
-
-go-scraper/
-│
-├── README.md
-├── go.mod
-├── go.sum
-├── cmd/
-│ └── main.go # Entry point for your command-line interface (CLI) if needed.
-├── scraper/
-│ ├── scraper.go # Core scraper logic (requests, parsing, etc.)
-│ ├── config.go # Configuration options for the scraper.
-│ └── utils.go # Helper functions like error handling, URL validation, etc.
-├── examples/
-│ └── basic_scrape.go # Example script to show how to use the library.
-└── tests/
-└── scraper_test.go # Unit and integration tests for scraper functions.
-
 # go-scraper
 
 `go-scraper` is a simple and efficient web scraping library written in Go. It allows developers to easily extract data from web pages by making HTTP requests, parsing HTML, and supporting features such as request concurrency, user agents, and custom request headers.
