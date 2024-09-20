@@ -2,6 +2,10 @@
 
 `go-scraper` is a simple and efficient web scraping library written in Go. It allows developers to easily extract data from web pages by making HTTP requests, parsing HTML, and supporting features such as request concurrency, user agents, and custom request headers.
 
+## Motivation
+
+I want to learn more about webscraping and GO, so I have decided to create my own library
+
 ## Features
 
 - **Simple HTTP Requests:** Easily make GET requests to scrape HTML content.
